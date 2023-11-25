@@ -1,25 +1,27 @@
-# A Drupal via DDEV template on Gitpod
+# Una plantilla de Drupal con DDEV para utilizar en Gitpod
 
-This is a [Drupal via DDEV](https://github.com/drud/ddev) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+Esta es una plantilla de [Drupal via DDEV](https://github.com/drud/ddev) configurada para ambientes de desarrollo efímeros en [Gitpod](https://www.gitpod.io/).
 
-## Next Steps
+## Siguientes pasos
 
-Click the button below to start a new development environment:
+Puede iniciar su ambiente dandole click al botón a continuación, sin embargo, si desea conservar los cambios que realice en dicho ambiente de trabajo se le recomienda crear su propio repositorio con base en este, para ello debe seguir las siguientes indicaciones:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dharizza/drupalcampcr-23)
+#. Dar click al botón "Use this template" de este repositorio, 
+#. Definir el nombre de su nuevo proyecto y guardarlo como un repositorio público,
+#. Una vez creado el repoositorio, edite el archivo README para cambiar la URL del botón "Abrir en Gitpod" que se encuentra a continuación. La URL actual corresponde al autor de este repositorio, debe cambiar el nombre de usuario y de repositorio para que apunte al nuevo repositorio. Una vez realizados los cambios, guarde el archivo dando click al botón "Commit changes".
+#. De click al botón "Abrir en Gitpod" a continuación.
 
-## Get Started With Your Own Project
+[![Abrir en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dharizza/drupalcampcr-23)
 
-### A new project
+## Iniciar su propio proyecto
 
-Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
+Una vez que el espacio de trabajo ha sido creado, puede instalar Drupal desde una nueva terminal ejecutando los siguientes comandos:
 
-Run `.gitpod/gitpod-setup-ddev.sh` once the workspace has started to commence
+```
+cd project
+./setup.sh
+```
 
-### An existing project
+## Agradecimientos especiales
 
-To get started with Drupal via DDEV on Gitpod, add a [`.gitpod.yml`](./.gitpod.yml) file and the [`.gitpod`] directory which contain the configuration to improve the developer experience on Gitpod. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
-
-## Special thanks
-
-This template was gifted to Gitpod by [Ofer Shaal](https://github.com/shaal) - Thank you 🙏!
+Esta plantilla fue regalada a Gitpod por [Ofer Shaal](https://github.com/shaal) - Gracias 🙏!
