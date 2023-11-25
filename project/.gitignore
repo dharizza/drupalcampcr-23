@@ -1,0 +1,9 @@
+# Ignore paths that contain user-generated content.
+web/files
+web/sites/*/files
+web/sites/*/private
+web/sites/*/settings.local.php
+vendor
+web/modules/contrib
+web/core
+web/libraries
